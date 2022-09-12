@@ -4,6 +4,6 @@ const text = document.querySelector("#text");
 img.addEventListener("click", Response);
 
 function Response () {
-text.innerHtml = 'fbfjhfejhfjberf'
+    setTimeout (() => {text.innerHtml = "dssdsdssdsdasads"}, 2000);
 }
     
