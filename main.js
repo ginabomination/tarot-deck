@@ -1,10 +1,12 @@
 const img = document.querySelector("#img");
-const text = document.querySelector("#text");
 
-document.getElementById("img").addEventListener("click", click);
+img.addEventListener("click", reveal);
 
-function click() {
-  document.getElementById("img").innerHTML = "dddddddd";
-}
-
-    
+function reveal() {
+    let hidden = document.getElementById('hidden');
+    if (hidden.style.display == "none") {
+      hidden.style.display = "block"
+    } else {
+      hidden.style.display = "none"
+    }
+  }
