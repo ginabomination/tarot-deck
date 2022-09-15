@@ -8,7 +8,7 @@
   }
   
 .flex-container > div {
-    width: 33.3%;
+    width: max-content;
     margin: 10px;
     text-align: center;
     line-height: 75px;
