@@ -4,12 +4,12 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    width: max-content;
+    width: 100%;
     background-color: blueviolet;
   }
   
 .flex-container > div {
-    width: 33.3%;
+    width: 33.3\%;
     margin: 10px;
     text-align: center;
     line-height: 75px;
