@@ -1,5 +1,7 @@
-const img = document.querySelector("#img");
 
+// hide and reveal text
+
+const img = document.querySelector("#img");
 img.addEventListener("click", reveal);
 
 function reveal() {
@@ -10,3 +12,6 @@ function reveal() {
       hidden.style.display = "none"
     }
   }
+
+
+  
