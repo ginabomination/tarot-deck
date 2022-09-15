@@ -4,6 +4,7 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    width: max-content;
     background-color: blueviolet;
   }
   
