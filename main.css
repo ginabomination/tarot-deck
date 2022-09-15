@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    background-color: blueviolet;
   }
   
 .flex-container > div {
@@ -13,7 +12,6 @@
     text-align: center;
     line-height: 75px;
     font-size: 30px;
-    background-color: aqua;
   }
 
 .flex_item {
