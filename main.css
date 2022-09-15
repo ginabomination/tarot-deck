@@ -28,6 +28,5 @@ img {
 div2 {
     background-color: brown;
     max-width: 60%;
-    position: relative;
-    position: center;
+    text-align: center;
 }
