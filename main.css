@@ -25,4 +25,6 @@ img {
 
 div2 {
     background-color: brown;
+    width: 33%;
+    align-self: center;
 }
