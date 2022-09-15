@@ -4,9 +4,10 @@
   }
   
   .flex-container > div {
-    width: 20%;
+    width: 33.3%;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+    object-fit: contain;
   }
