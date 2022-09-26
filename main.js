@@ -36,4 +36,9 @@ function reveal1() {
 const advice = document.querySelector("#advice");  
 const submit = document.querySelector("#submit");
 
-submit.addEventListener("click", advice.innerHtml = "print advice");
+submit.addEventListener("click", response);
+
+function response() {
+  document.getElementById('advice').value  = 'print advice';
+}
+
