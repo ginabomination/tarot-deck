@@ -31,11 +31,9 @@ function reveal1() {
     }
   }
   
+// advice text 
+  
 const advice = document.querySelector("#advice");  
 const submit = document.querySelector("#submit");
 
-submit.addEventListener("click", adiceActivate);
-
-function adiceActivate () {
-  advice.innerHtml = "print advice"
-}
+submit.addEventListener("click", advice.innerHtml = "print advice");
