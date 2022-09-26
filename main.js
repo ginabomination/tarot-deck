@@ -31,3 +31,11 @@ function reveal1() {
     }
   }
   
+const advice = document.querySelector("#advice");  
+const submit = document.querySelector("#submit");
+
+submit.addEventListener("click", adiceActivate);
+
+function adiceActivate () {
+  advice.innerHtml = "print advice"
+}
