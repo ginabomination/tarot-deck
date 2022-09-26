@@ -5,6 +5,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     background-color: blueviolet;
+    max-height: 100%;
   }
   
 .flex-container > div {
@@ -27,6 +28,6 @@ img {
 
 div2 {
     background-color: brown;
-    max-width: 60%;
+    max-width: 100%;
     text-align: center;
 }
