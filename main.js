@@ -37,8 +37,9 @@ const advice = document.querySelector("#advice");
 const submit = document.querySelector("#submit");
 
 submit.addEventListener("click", response);
+advice.extContent == "this is the advice header"
 
 function response() {
-  document.getElementById('advice').value  = 'print advice';
+  document.getElementById("advice").innerHTML = "print advice";
 }
 
